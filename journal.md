@@ -467,7 +467,7 @@ Final file: weights/osnet_x0_25.onnx ✅
 
 
 
-#JOUNREY OF CONVERTING MY OSNET ONNX TO INT8 ENGINE!!
+##JOUNREY OF CONVERTING MY OSNET ONNX TO INT8 ENGINE!!
 'I am so confused rn about shapes so i chceked the shape of my osnet AGAIN! to be sure before I convert it,you can do that using this siple code snippet :)
 
 
@@ -491,7 +491,7 @@ then i searched and got this answer -
 3)To fit fp32 values to int8TensorRT needs to learn a scaling factor
 
 
-#⚠️ What could go wrong with a bad dataset?
+#####⚠️ What could go wrong with a bad dataset?
 
 -Imagine you gave only daytime images for calibration:
 The model sees only bright images 'only' like..hight contrast pixels during calibration
@@ -507,7 +507,7 @@ This is why people say:
 “Calibration is 80% of quantization success.”
 
 
-#🏴‍☠️⛵⚓🌊 Built osnet.trt(osnet int 8 engine) with 520 images processed
+##🏴‍☠️⛵⚓🌊 Built osnet.trt(osnet int 8 engine) with 520 images processed##
 
 ->(drone-env) aditrisingh@LAPTOP-6T8704AT:/mnt/c/Users/Aditri/Desktop/Drone$ ./trt_int8_osnet
 onnx2trt_utils.cpp:374: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.
