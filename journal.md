@@ -468,7 +468,7 @@ Final file: weights/osnet_x0_25.onnx ✅
 
 
 #JOUNREY OF CONVERTING MY OSNET ONNX TO INT8 ENGINE!!
-I am so confused rn about shapes so i chceked the shape of my osnet AGAIN! to be sure before I convert it,you can do that using this siple code snippet :)
+'I am so confused rn about shapes so i chceked the shape of my osnet AGAIN! to be sure before I convert it,you can do that using this siple code snippet :)
 
 
 import onnx
@@ -712,7 +712,7 @@ Exported ONNX with INT32 weights
 
 ##😢😢😢😢
 
-'After exporting my new int32 osnet onnx to int 8
+After exporting my new int32 osnet onnx to int 8
 this is waht i got-
 (drone-env) aditrisingh@LAPTOP-6T8704AT:/mnt/c/Users/Aditri/Desktop/Drone$ ./trt_int8_osnet
 onnx2trt_utils.cpp:374: Your ONNX model has been generated with INT64 weights, while TensorRT does not natively support INT64. Attempting to cast down to INT32.
@@ -725,7 +725,7 @@ Engine saved to /mnt/c/Users/Aditri/Desktop/Drone/osnet.trt
 
 
 
-#CONCLUSION
+##CONCLUSION
 
 ->YOLO cant be fully converted into FP16 AND INT8 
 ->IT WILL ALWAYS RELY ON FP32 FOR SOME LAYERS :)
